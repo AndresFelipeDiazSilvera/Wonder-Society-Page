@@ -1,0 +1,11 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "exclude": ["src/content/blog/using-mdx.mdx"],
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}
